@@ -1,0 +1,14 @@
+各检索表为:
+keyWordDict:   {'if': '条件语句的开始', 'else': '条件语句的分支', 'elif': '条件语句的分支', 'endif': '条件语句的结束'}
+virableDict:   {'a': '', 'b': '', 'c': '', 'x': '', 'd': '', 'sdhfknk2323dfbftgrfs': ''}
+constantDict:  {'1': 1.0, '2.345345': 2.345345, '59999': 59999.0, '3': 3.0, '5': 5.0, '6': 6.0}
+识别的语句为:
+[('virableDict', 'a'), ('赋值符号', '='), ('constantDict', '1'), ('运算符号', '+'), ('constantDict', '2.345345')]
+[('virableDict', 'b'), ('赋值符号', '='), ('virableDict', 'a'), ('运算符号', '+'), ('constantDict', '59999')]
+[('virableDict', 'if'), ('virableDict', 'a'), ('比较符号', '>'), ('constantDict', '3')]
+[('virableDict', 'a'), ('赋值符号', '='), ('virableDict', 'a'), ('运算符号', '+'), ('constantDict', '1')]
+[('virableDict', 'elif'), ('virableDict', 'b'), ('比较符号', '>'), ('赋值符号', '='), ('constantDict', '1')]
+[('virableDict', 'c'), ('赋值符号', '='), ('Error!', '数字输入错误')]
+[('Error', '不在识别字符串内，请检查'), ('virableDict', 'x'), ('赋值符号', '='), ('constantDict', '3')]
+[('virableDict', 'd'), ('赋值符号', '='), ('constantDict', '3'), ('运算符号', '*'), ('运算符号', '+'), ('constantDict', '5')]
+[('virableDict', 'sdhfknk2323dfbftgrfs'), ('赋值符号', '='), ('constantDict', '6')]

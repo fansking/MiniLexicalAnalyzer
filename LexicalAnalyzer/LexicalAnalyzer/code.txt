@@ -1,0 +1,1 @@
+a=1+2.345345#b=a+59999#if a>3#a=a+1#elif b>=1#c=3.4.6#$x=3#d=3*+5#sdhfknk2323dfbftgrfs=6#
